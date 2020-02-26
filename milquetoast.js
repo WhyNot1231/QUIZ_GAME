@@ -25,16 +25,16 @@ let run=function(){
 
     if(curQ===1){
         createQuestion("How many keys are on a grand piano?", "Fallout 76", "At least 1", "88", "OVER 9000","choice2");
-        b3=correctOne;
+        correctOne=b3;
     }else if(curQ===2){
         createQuestion("What are the notes of guitar strings in standard tuning from order of lowest to highest?","EADGBe", "NAHFAM", "Press F to pay respects", "THICC", "EADGBe");
-        b1=correctOne;
+        correctOne=b1;
     }else if(curQ===3){
         createQuestion("What instrument family is the cello in?", "Brass", "Woodwind", "String bois", "Bang-boom-crash instruments", "String bois")
-        b3=correctOne;
+        correctOne=b3;
     }else if(curQ===4){
         createQuestion("Who created music?", "The Giant Flying Spaghetti Monster", "The Beatles", "Some caveman banging on a rock", "Elon Musk", "Some caveman banging on a rock")
-        b3=correctOne;
+        correctOne=b3;
     }else{
         let title=document.getElementById("title");
         title.innerText="Your Results";
